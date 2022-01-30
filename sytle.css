@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Raleway:wght@200&display=swap');
+
 :root {
     --prim-clr:#df8301;
     --sec-clr: #00bbad;
     --accent-clr:#b179ff;
+    --sec-font:'Dongle', sans-serif;
+    --prim-font:'Raleway', sans-serif;
+    font-family: --prim-font;
 }
+
