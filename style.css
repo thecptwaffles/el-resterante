@@ -1,0 +1,27 @@
+:root {
+    --prim-font: 'Raleway', sans-serif;
+    --sec-font: 'Dongle', sans-serif;
+    --prim-clr: #e1c699;
+    --sec-clr: #b98900;
+    --thd-clr: #dfe0df;
+    --accent-clr: #402e32;
+    color: var(--accent-clr);
+    background-color: var(--prim-clr);
+    border: double 8px var(--accent-clr);
+}
+
+h1, h2{
+    font-family: var(--prim-font);
+    text-decoration: underline;
+}
+
+li {
+    font-family: var(--sec-font);
+    font-size: 1.5rem;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
